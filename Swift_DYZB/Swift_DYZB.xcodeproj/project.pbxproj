@@ -24,6 +24,9 @@
 		2CD4A2B620D0C910009BB2A3 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4A2B520D0C910009BB2A3 /* PageTitleView.swift */; };
 		2CD4A2B820D0CC1B009BB2A3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4A2B720D0CC1B009BB2A3 /* Common.swift */; };
 		2CD4A2BA20D0F923009BB2A3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4A2B920D0F923009BB2A3 /* UIColor-Extension.swift */; };
+		2CD4F20920D34DED006D7394 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4F20820D34DED006D7394 /* RecommendViewController.swift */; };
+		2CD4F20C20D360BA006D7394 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4F20A20D360BA006D7394 /* CollectionHeaderView.swift */; };
+		2CD4F20D20D360BA006D7394 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD4F20B20D360BA006D7394 /* CollectionHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		2CD4A2B520D0C910009BB2A3 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		2CD4A2B720D0CC1B009BB2A3 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		2CD4A2B920D0F923009BB2A3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		2CD4F20820D34DED006D7394 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		2CD4F20A20D360BA006D7394 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		2CD4F20B20D360BA006D7394 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				2CD4A2B020D0BF31009BB2A3 /* Extension */,
+				2CD4A2B720D0CC1B009BB2A3 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 			children = (
 				2C77132520CFAB1200197B9D /* Home.storyboard */,
 				2CD4A2AE20D0B23A009BB2A3 /* HomeViewController.swift */,
+				2CD4F20820D34DED006D7394 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +267,8 @@
 		2CD4A2A420D0B192009BB2A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2CD4F20A20D360BA006D7394 /* CollectionHeaderView.swift */,
+				2CD4F20B20D360BA006D7394 /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,7 +346,6 @@
 			isa = PBXGroup;
 			children = (
 				2CD4A2B320D0BF74009BB2A3 /* UIBarButtonItem-Extension.swift */,
-				2CD4A2B720D0CC1B009BB2A3 /* Common.swift */,
 				2CD4A2B920D0F923009BB2A3 /* UIColor-Extension.swift */,
 			);
 			path = Extension;
@@ -447,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7712E720CF6FBF00197B9D /* LaunchScreen.storyboard in Resources */,
+				2CD4F20D20D360BA006D7394 /* CollectionHeaderView.xib in Resources */,
 				2C7712E420CF6FBF00197B9D /* Assets.xcassets in Resources */,
 				2C7712E220CF6FBD00197B9D /* Main.storyboard in Resources */,
 				2C77132720CFAB1200197B9D /* Home.storyboard in Resources */,
@@ -478,7 +488,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7712DD20CF6FBD00197B9D /* AppDelegate.swift in Sources */,
+				2CD4F20C20D360BA006D7394 /* CollectionHeaderView.swift in Sources */,
 				2CD4A2A120D0B175009BB2A3 /* MainViewController.swift in Sources */,
+				2CD4F20920D34DED006D7394 /* RecommendViewController.swift in Sources */,
 				2CD4A2B620D0C910009BB2A3 /* PageTitleView.swift in Sources */,
 				2CB00FAD20D1FC6A00586A9C /* PageContentView.swift in Sources */,
 				2CD4A2B420D0BF74009BB2A3 /* UIBarButtonItem-Extension.swift in Sources */,
